@@ -1,0 +1,79 @@
+body{
+ font-family: Kumbh Sans;
+ background-color:hsl(273, 75%, 66%);
+ font-size: 12px;
+ 
+}
+
+.faq-heading{
+ border-bottom: #777;
+ padding: 20px 60px;
+ text-align: center;
+}
+
+.faq-container {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ background-color: white;
+ width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  padding-left: 400px;
+}
+
+.hr-line {
+ width: 60%;
+ margin: auto;
+}
+
+.faq-page {
+ /* background-color: #eee; */
+ color: #444;
+ cursor: pointer;
+ padding: 30px 20px;
+ width: 60%;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+ margin: auto;
+}
+
+.faq-body {
+ margin: auto;
+ /* text-align: center; */
+ width: 50%;
+ padding: auto;
+
+}
+
+.active,
+.faq-page:hover {
+ color: pink;
+}
+
+.faq-body {
+ padding: 0 18px;
+ background-color: white;
+ display: none;
+ overflow: hidden;
+}
+
+.faq-page:after {
+ content: '\02795';
+ /* Unicode character for "plus" sign (+) */
+ font-size: 13px;
+ color: #777;
+ float: right;
+ margin-left: 5px;
+}
+
+.active:after {
+ content: "\2796";
+ /* Unicode character for "minus" sign (-) */
+}
+
+.img-1{
+position: absolute;
+left: 0;
+}
